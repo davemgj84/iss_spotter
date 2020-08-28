@@ -19,6 +19,7 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printPassTimes(passTimes);
 });
 
+module.exports = printPassTimes;
 
 // ************ INCREMENTAL CODE FROM EACH PART OF THE ASSIGNMENT BELOW: ************
 
